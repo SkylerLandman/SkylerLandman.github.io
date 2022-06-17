@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyler</title>
+    <link rel="stylesheet" href="assets/css/mainContact.css"/>
+    <div class="navbar">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="indexContact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        
+        </div> 
+
+    
+</head>
+<body style = "background-color:#00b894; height:100%; width:20%; float:left;">
+    <div >
+        <center>
+           
+          <div class="container" id="contact">
+          <div class="row" style="margin-top: 5%; margin-bottom: 2%;">
+        <h1> Contact </h1>
+        <form method="post" name="contact_form" action="javascript" onsubmit="contact()">
+        <div class="row">
+            <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+                 <input class="form-control" type="text" id="name" placeholder="Name" />
+            </div>
+           <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+            <input class="form-control" type="email" id="email" placeholder="Email" />
+           </div>
+           <div class="col-12" style="margin-bottom: 2%;">
+            <input class="form-control" type="text" id="subject" id="subject" value="" placeholder="Subject" />
+        </div>
+        <div class="col-12" style="margin-bottom: 2%;">
+            <textarea class="form-control" id="message" placeholder="Message" rows="6"></textarea>
+        </div>
+        <div class="col-12" style="margin-bottom: 2%;">
+         </div>
+         <div class="col-12" style="margin-bottom: 2%;">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+        </form>
+        </div>
+          </div>
+        
+        </center>
+     
+  </div>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/contact.js"></script>
+</body>
+</html>
