@@ -1,4 +1,4 @@
-function conctact() {
+function contact() {
     var script_url ="https://script.google.com/macros/s/AKfycbzpdLIPOCokp3pGiZVfIYk3thKh132E5ztJEb-SU2KIzbQCviDdlRGrG-YWaNtZ5s6c/exec";
 
     var name = $("#name").val();
